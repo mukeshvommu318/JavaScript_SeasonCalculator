@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    
+    height: 100vh;
+}
+
+.part1,
+.part2 {
+    display: flex;         
+    padding: 0;
+    margin: 0;
+}
+
+.part1 img,
+.part2 img {
+    height: 300px;
+    width: 200px;
+    
+}
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between ;
+    width: 400px;
+}
+button{
+    padding: 5px 9px;
+}
+
